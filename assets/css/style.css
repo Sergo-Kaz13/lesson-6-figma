@@ -1,1 +1,49 @@
-@import url(fonts.css);
+/*=========== шрифти ============*/
+@import url('fonts.css');
+/* ============================== */
+
+/*=========== Обнуляючі стилі =========== */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #544837;
+}
+/* ========================================== */
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+._container {
+  max-width: 1126px;
+  margin: 0 auto;
+}

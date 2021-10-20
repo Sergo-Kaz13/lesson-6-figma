@@ -102,8 +102,8 @@ body {
 }
 .icon__item-design {
   background: #FAB005;
-  padding: 17px 0 0 21px;
-
+  padding: 15px 0 0 14px;
+  font-size: 1.5em;
 }
 .block__icon-heart {
   background: #FBC7C7;
@@ -133,8 +133,6 @@ body {
   min-height: 50px;
   align-items: center;
 }
-.header__logo-icon {
-}
 .header__logo-title {
   margin-left: 11px;
   color: #173A56;
@@ -146,11 +144,6 @@ body {
   display: flex;
   align-items: center;
 }
-.header__block-nav {
-}
-.nav {
-
-}
 .nav__list {
   display: flex;
   font-size: .875em;
@@ -160,14 +153,8 @@ body {
 .nav__list li:not(:first-child) {
   margin-left: 27px;
 }
-.nav__item {
-}
-.nav__link {
-}
 .header__block-sing {
   margin-left: 100px;
-}
-.sing {
 }
 .sign__in {
   margin-right: 14px;
@@ -182,18 +169,12 @@ body {
 .sign__in:hover {
   cursor: pointer;
 }
-.btn {
-}
-.sign__up {
-}
 .main {
   flex: 1 1 auto;
 }
 .main__thinking {
   display: flex;
   margin-bottom: 110px;
-}
-.thinking {
 }
 .thinking__info {
   display: flex;
@@ -218,8 +199,6 @@ body {
 }
 .thinking__btn {
   vertical-align: middle;
-}
-.started {
 }
 .video {
   margin-left: 30px;
@@ -251,8 +230,6 @@ body {
   margin-bottom: 120px;
   text-align: center;
 }
-.tools {
-}
 .tools__title {
   font-weight: 700;
   color: #2F281E;
@@ -272,8 +249,6 @@ body {
 .card>div {
   padding: 0 10px;
 }
-.card__tests {
-}
 .card__title {
   color: #2F281E;
   font-weight: 600;
@@ -284,20 +259,12 @@ body {
   font-size: .9em;
   line-height: 1.55;
 }
-.card__surveys {
-}
-.card__preference {
-}
-.card__second {
-}
 .tools__btn {
   text-transform: uppercase;
 }
 .main__professionals {
   display: flex;
   margin-bottom: 101px;
-}
-.professionals {
 }
 .professionals__info {
   max-width: 50%;
@@ -336,8 +303,6 @@ body {
 .main__managers {
   display: flex;
   margin-bottom: 104px;
-}
-.managers {
 }
 .managers__img {
   width: 45%;
@@ -385,8 +350,6 @@ body {
   border-bottom: 1px solid #F2F2F2;
   margin-bottom: 100px;
 }
-.marketers {
-}
 .marketers__info {
   width: 50%;
   padding: 60px 120px 0 0;
@@ -421,7 +384,49 @@ body {
   width: 100%;
   object-fit: contain;
 }
-.footer {
-  background: yellow;
-  height: 50px;
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  min-height: 270px;
+  padding-bottom: 80px;
+}
+.footer__logo {
+  display: flex;
+}
+.footer__logo-title {
+  margin-left: 11px;
+  color: #173A56;
+  font-size: 2em;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer__nav {
+  display: flex;
+  align-items: flex-end;
+  width: 70%;
+}
+.footer__nav-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer__nav-item {
+  width: 50%;
+  font-size: .8em;
+  line-height: 2;
+}
+.footer__sign {
+  display: flex;
+  flex-direction: column;
+
+}
+.footer__input {
+  margin-bottom: 21px;
+  min-width: 325px;
+  min-height: 48px;
+  border: 1px solid #BCD0E5;
+}
+.footer__input:focus {
+  color: #173A56;
+  font-size: 1em;
+  padding: 0 5px;
 }
